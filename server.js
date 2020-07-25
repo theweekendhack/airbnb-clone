@@ -20,7 +20,6 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // routes 
 app.get("/",(req,res)=>{
 
-    console.log(`${process.env.TWILIO_SID}`);
 
         console.log("THIS IS SERVER CODE!!!!!!");
     
@@ -76,11 +75,7 @@ app.post("/contact-us",(req,res)=>{
             //represents success!!!!! 
             console.log(message.sid);
 
-            
-        //const accountSid = 'AC69322baa06308fb9b50071c5245626aa';
-        //const authToken = 'your_auth_token';
-       // const client = require('twilio')(accountSid, authToken);
-        
+                    
         client.calls
               .create({
                  url: 'http://demo.twilio.com/docs/voice.xml',
