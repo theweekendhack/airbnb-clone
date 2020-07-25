@@ -7,17 +7,29 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+
         <header>
             <div class="container">
                 <nav>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/about-us">About</a></li>
+                        <li><a href="/about-us" id="about-link">About</a></li>
                         <li><a href="/room-listing">Room Listing</a></li>
                         <li><a href="/contact-us">Contact Us</a></li>
+                        <li><a href="/register">Register</a></li>
                     </ul>
                 </nav>
             </div>
+            
+            <div class="message-modal hide">
+                <div class="message-modal-container">
+                    <button type="button" id="close-btn">X</button>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi rerum laboriosam et, unde nesciunt aliquam aut alias sit cupiditate accusantium? Tempore earum provident facilis blanditiis, hic enim nihil culpa necessitatibus.
+                    </p>
+                </div> 
+            </div>
+
         </header>
         <main>
             {{{body}}}
@@ -29,6 +41,6 @@
             </p>
         </footer>
 
-       <!-- <script src="/js/app.js"></script>-->
+       <script src="/js/app.js"></script>
 </body>
 </html>

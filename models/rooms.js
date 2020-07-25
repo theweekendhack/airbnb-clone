@@ -37,8 +37,8 @@ const roomModel =
         this.rooms.push(new Room(7,"/img/room1.jpg","Hyatt Top Shooter ","Blah",105))
         this.rooms.push(new Room(8,"/img/room2.jpg","The Wetman Room","Blah",50))
         this.rooms.push(new Room(9,"/img/room3.jpg","BoobooShanti Room","Blah",98,true))
-        this.rooms.push(new Room(10,"/img/room4.jpg","UWI Alumni Room","Blah",40,true))
-        this.rooms.push(new Room(11,"/img/room5.jpg","Too Bad Room","Blah",25,true))
+        this.rooms.push(new Room(10,"/img/room4.jpg","UWI Alumni Room","Blah",40))
+        this.rooms.push(new Room(11,"/img/room5.jpg","Too Bad Room","Blah",25))
         this.rooms.push(new Room(12,"/img/room6.jpg","More Trouble Room","Blah",120))
 
     },

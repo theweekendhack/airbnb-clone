@@ -1,0 +1,15 @@
+<div class="container">
+    
+    <h2>Room Listing Page</h2>
+
+    <div class="room-container">
+        {{#each rooms}}
+            <div class="room-img-container">
+                <img src="{{this.imgPath}}" alt="{{this.title}}">
+                <h3>{{this.title}}</h3>
+            </div>
+        {{/each}}
+
+    </div>
+
+</div>

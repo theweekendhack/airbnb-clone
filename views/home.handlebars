@@ -1,1 +1,26 @@
-BLAH BLAH
+<section class="hero-section grid-center">
+          <h1>Home Page</h1>
+
+</section>
+
+<div class="container">
+    <section>
+        <h2>Ugly Airbnb</h2>
+        
+        <p>
+            See Top Room Movies.
+    
+        </p>
+
+        <div class="room-container">
+
+                {{#each rooms}}
+                <div class="room-img-container">
+                    <img src="{{this.imgPath}}" alt="{{this.title}}">
+                    <h3>{{this.title}}</h3>
+                </div>
+            {{/each}}
+ 
+         </div>
+    </section>
+</div>
